@@ -8,7 +8,7 @@ A custom-designed **smart vehicle security system** combining AI and embedded te
 ## 🔧 Key Features
 
 - 🧠 **Driver Face Recognition**  
-  Only authorized faces can start the vehicle using a live webcam-based verification system (OpenCV + Python).
+  Only authorized faces can use the vehicle using a live webcam-based verification system (OpenCV + Python).
 
 - 😴 **Drowsiness Detection System**  
   Alerts and prevents accidents using real-time Eye Aspect Ratio (EAR) monitoring with a webcam.
@@ -17,10 +17,10 @@ A custom-designed **smart vehicle security system** combining AI and embedded te
   Unlock and start the vehicle using pre-registered RFID tags.
 
 - 📍 **Live GPS Tracking & SMS Alerts**  
-  Track vehicle location via GPS, and receive coordinates or system status through SMS.
+  Track vehicle location via GPS, and receive coordinates or system status through the App.
 
 - ✂️ **Remote Vehicle Cutoff**  
-  Stop the vehicle remotely via a secret SMS command.
+  Stop the vehicle remotely via cloud data communication or via a secret SMS command.
 
 ---
 
@@ -31,11 +31,45 @@ A custom-designed **smart vehicle security system** combining AI and embedded te
 | **Python + OpenCV** | Face recognition & drowsiness detection |
 | **Esp-32** | GPS, RFID, and SMS handling         |
 | **Raspberry Pi 5** | Host for image processing and control logic |
-| **GSM Module SIM800l**     | For sending and receiving SMS     |
+| **GSM Module SIM7600**     | Provide Internet and SMS control   |
 | **GPS Module Neo 6M**     | For location tracking             |
 | **RFID Reader (RC522)** | For contactless authentication     |
 
 ---
+
+# 🚗 AutoConnectX – Smart Vehicle Security & Control App
+
+Welcome to **AutoConnectX**, a custom-built mobile app designed to provide seamless, smart control over your vehicle’s security and monitoring systems — without exposing the underlying code.
+
+---
+
+## 📱 App Features Overview
+
+AutoConnectX offers a comprehensive suite of smart vehicle features to keep your car secure and connected:
+
+- 🧠 **Face Recognition Access**  
+  Authenticate drivers using live facial recognition technology for secure vehicle unlocking.
+
+- 😴 **Driver Drowsiness Alerts**  
+  Real-time monitoring detects signs of drowsiness and issues timely alerts to prevent accidents.
+
+- 🆔 **RFID-Based Vehicle Control**  
+  Unlock and Lock your vehicle effortlessly through the App.
+
+- 📍 **Live GPS Tracking & Notifications**  
+  Track your vehicle location in real-time and receive status updates via the app.
+
+- ✂️ **Remote Engine Cutoff**  
+  Remotely disable your vehicle’s ignition instantly through secure cloud commands or secret SMS codes.
+
+
+## ⚠️ Note on Source Code
+
+The source code and sensitive files are maintained in a **private repository** for security and privacy reasons. This public repo focuses on sharing the vision, ideas, and progress of the AutoConnectX project.
+
+---
+
+*Created by Shinto Tony*  
 
 ## 📐 System Architecture
 
