@@ -26,10 +26,12 @@ A custom-designed **smart vehicle security system** combining AI and embedded te
 
 ## 🛠️ Technologies Used
 
+(⚠️ using these components only as a part of prototyping)
+
 | Component        | Description                      |
 |------------------|----------------------------------|
 | **Python + OpenCV** | Face recognition & drowsiness detection |
-| **Esp-32** | GPS, RFID, and SMS handling         |
+| **Esp-32** | GPS, RFID, and SMS handling (optional) |
 | **Raspberry Pi 5** | Host for image processing and control logic |
 | **GSM Module SIM7600**     | Provide Internet and SMS control   |
 | **GPS Module Neo 6M**     | For location tracking             |
