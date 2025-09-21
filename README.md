@@ -59,8 +59,8 @@ AutoConnectX offers a comprehensive suite of smart vehicle features to keep your
 ## 📂 Visual Portfolio (Placeholders)
 
 - 📸 **App Screenshots:** [Google Drive Folder Link – App UI](https://drive.google.com/drive/folders/1HFt5DvUp-GYYjkV6Ozldppo9vVbuAs4N)  
-- 🔧 **Hardware & Wiring Photos:** [Google Drive Folder Link – Assembly / Circuits](PUT-YOUR-DRIVE-LINK-HERE)  
-- 🎥 **Demo Videos:** [Google Drive Folder Link – Live Demo Clips](PUT-YOUR-DRIVE-LINK-HERE)  
+- 🔧 **Prototype Hardware:** [Google Drive Folder Link – Assembly / Circuits](https://drive.google.com/file/d/11MkbFJOGEe59w7ooO8E9-ArXU_J1jws4/view?usp=drivesdk)
+- 🎥 **Demo Videos:** [Google Drive Folder Link – Live Demo Clips](COMING-SOON)  
 
 ---
 
