@@ -1,6 +1,5 @@
 # 🚗 Vehicle Security System – Smart Multi-Layer Protection
 
-
 A custom-designed **smart vehicle security system** combining AI and embedded technologies to prevent theft, detect drowsiness, and offer full control through facial recognition, RFID, GPS tracking, and remote commands via SMS.
 
 ---
@@ -31,11 +30,11 @@ A custom-designed **smart vehicle security system** combining AI and embedded te
 | Component        | Description                      |
 |------------------|----------------------------------|
 | **Python + OpenCV** | Face recognition & drowsiness detection |
-| **Esp-32** | GPS, RFID, and SMS handling (optional) |
+| **ESP32** | GPS, RFID, and SMS handling (optional) |
 | **Raspberry Pi 5** | Host for image processing and control logic |
-| **GSM Module SIM7600**     | Provide Internet and SMS control   |
-| **GPS Module Neo 6M**     | For location tracking             |
-| **RFID Reader (RC522)** | For contactless authentication     |
+| **GSM Module SIM7600**     | Internet and SMS control   |
+| **GPS Module Neo 6M**     | Location tracking             |
+| **RFID Reader (RC522)** | Contactless authentication     |
 
 ---
 
@@ -50,24 +49,25 @@ Welcome to **AutoConnectX**, a custom-built mobile app designed to provide seaml
 AutoConnectX offers a comprehensive suite of smart vehicle features to keep your car secure and connected:
 
 - 🧠 **Face Recognition Access**  
-  Authenticate drivers using live facial recognition technology for secure vehicle unlocking.
-
 - 😴 **Driver Drowsiness Alerts**  
-  Real-time monitoring detects signs of drowsiness and issues timely alerts to prevent accidents.
-
 - 🆔 **RFID-Based Vehicle Control**  
-  Unlock and Lock your vehicle effortlessly through the App.
-
 - 📍 **Live GPS Tracking & Notifications**  
-  Track your vehicle location in real-time and receive status updates via the app.
-
 - ✂️ **Remote Engine Cutoff**  
-  Remotely disable your vehicle’s ignition instantly through secure cloud commands or secret SMS codes.
 
+---
+
+## 📂 Visual Portfolio (Placeholders)
+
+- 📸 **App Screenshots:** [Google Drive Folder Link – App UI](https://drive.google.com/drive/folders/1HFt5DvUp-GYYjkV6Ozldppo9vVbuAs4N)  
+- 🔧 **Hardware & Wiring Photos:** [Google Drive Folder Link – Assembly / Circuits](PUT-YOUR-DRIVE-LINK-HERE)  
+- 🎥 **Demo Videos:** [Google Drive Folder Link – Live Demo Clips](PUT-YOUR-DRIVE-LINK-HERE)  
+
+---
 
 ## ⚠️ Note on Source Code
 
-The source code and sensitive files are maintained in a **private repository** for security and privacy reasons. This public repo focuses on sharing the vision, ideas, and progress of the AutoConnectX project.
+The source code and sensitive files are maintained in a **private repository** for security and privacy reasons.  
+This public repo focuses on sharing the vision, ideas, and progress of the AutoConnectX project.
 
 ---
 
@@ -76,7 +76,6 @@ The source code and sensitive files are maintained in a **private repository** f
 ## 📐 System Architecture
 
 ```mermaid
-
 graph TD;
     Camera -->|Face & Drowsiness Detection| RaspberryPi
     RaspberryPi -->|Authorized Person| Arduino
@@ -86,4 +85,3 @@ graph TD;
     GPS --> Arduino
     GSM --> Arduino
     Arduino -->|Ignition Control| RelayModule
-    
