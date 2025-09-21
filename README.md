@@ -56,11 +56,11 @@ AutoConnectX offers a comprehensive suite of smart vehicle features to keep your
 
 ---
 
-## 📂 Visual Portfolio (Placeholders)
+## 📂 Visual Portfolio 
 
 - 📸 **App Screenshots:** [Google Drive Folder Link – App UI](https://drive.google.com/drive/folders/1HFt5DvUp-GYYjkV6Ozldppo9vVbuAs4N)  
-- 🔧 **Prototype Hardware:** [Google Drive Folder Link – Assembly / Circuits](https://drive.google.com/file/d/11MkbFJOGEe59w7ooO8E9-ArXU_J1jws4/view?usp=drivesdk)
-- 🎥 **Demo Videos:** [Google Drive Folder Link – Live Demo Clips](COMING-SOON)  
+- 🔧 **Prototype Hardware:** [Google Drive -Assembly / Circuits](https://drive.google.com/file/d/11MkbFJOGEe59w7ooO8E9-ArXU_J1jws4/view?usp=drivesdk)
+- ⚠️ COMING SOON ! 🎥 **Demo Videos:** [Google Drive Folder Link – Live Demo Clips](COMING-SOON)  
 
 ---
 
@@ -70,6 +70,8 @@ The source code and sensitive files are maintained in a **private repository** f
 This public repo focuses on sharing the vision, ideas, and progress of the AutoConnectX project.
 
 ---
+
+🚧 **Work in Progress:** The project is evolving quickly. Expect frequent updates and possible changes in structure or features.
 
 *Created by Shinto Tony*  
 
